@@ -1,12 +1,30 @@
 /* Tipografía */
 
 @font-face {
-  font-family: "bwmedium";
+  font-family: "BwMedium.woff2";
   src: url("./assets/fonts/BwMedium.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
-
+@font-face {
+  font-family: "BwBlack.woff2";
+  src: url("./assets/fonts/BwMedium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "BwRegular.woff2";
+  src: url("./assets/fonts/BwMedium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+}
+@font-face {
+  font-family: "GBook.woff2";
+  src: url("./assets/fonts/GBook.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
 /****************************************
 *    Variables
 *****************************************/
@@ -88,7 +106,17 @@ html {
   height: 100%;
   font-family: "bwmedium";
 }
+body {
+  font-family: "Gotham";
+}
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "BwMedium.woff2";
+}
 /****************************************
 *    Componentes
 *****************************************/
