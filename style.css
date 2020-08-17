@@ -1,102 +1,40 @@
 /* Tipografía */
-
 @font-face {
-  font-family: "BwMedium.woff2";
+  font-family: "BwMedium";
   src: url("./assets/fonts/BwMedium.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "BwBlack.woff2";
+  font-family: "BwBlack";
   src: url("./assets/fonts/BwMedium.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "BwRegular.woff2";
+  font-family: "BwRegular";
   src: url("./assets/fonts/BwMedium.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 }
 @font-face {
-  font-family: "GBook.woff2";
+  font-family: "GBook";
   src: url("./assets/fonts/GBook.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
+
 /****************************************
 *    Variables
 *****************************************/
-
-/* Resets */
-html {
-  box-sizing: border-box;
-}
-*,
-::after,
-::before {
-  box-sizing: inherit;
-}
-blockquote,
-body,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-hr,
-li,
-ol,
-pre,
-ul {
-  margin: 0;
-  padding: 0;
-}
-ul {
-  list-style: none;
-}
-button,
-input,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  letter-spacing: inherit;
-}
-button,
-input,
-textarea {
-  border: 1px solid gray;
-}
-button {
-  border-radius: 0;
-  padding: 0.75em 1em;
-  background-color: transparent;
-}
-button * {
-  pointer-events: none;
-}
-embed,
-iframe,
-img,
-object,
-video {
-  display: block;
-  max-width: 100%;
-}
-table {
-  table-layout: fixed;
-  width: 100%;
-}
-[hidden] {
-  display: none;
-}
-noscript {
-  display: block;
-  margin-bottom: 1em;
-  margin-top: 1em;
+:root {
+  /* Colores */
+  --primario: #ffffff;
+  --secundario: #000000;
+  /* Tipografía */
+  --font-family-body: sans-serif;
+  --font-family-headings: sans-serif;
 }
 
 /****************************************
@@ -104,10 +42,10 @@ noscript {
 *****************************************/
 html {
   height: 100%;
-  font-family: "bwmedium";
 }
+
 body {
-  font-family: "Gotham";
+  font-family: var(--font-family-body);
 }
 
 h1,
@@ -115,8 +53,41 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "BwMedium.woff2";
+  font-family: var(--font-family-headings);
 }
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 19px;
+}
+
+/****************************************
+*    Temp
+*****************************************/
+/* TODO: Ejercicio aplicar estilos de figma a cajas */
+
 /****************************************
 *    Componentes
 *****************************************/
+
+/****************************************
+*    Helpers
+*****************************************/
+[dots] {
+  outline: rgba(255, 0, 0, 0.75) dotted 2px;
+}
