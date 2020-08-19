@@ -30,11 +30,14 @@
 *****************************************/
 :root {
   /* Colores */
-  --primario: #ffffff;
-  --secundario: #000000;
+  --primario-1: #141414;
+  --primario-2: #333333;
+  --primario-3: #BFC0C0;
+  
+  
   /* Tipografía */
-  --font-family-body: sans-serif;
-  --font-family-headings: sans-serif;
+  --font-family-body: "GBook";
+  --font-family-headings: "BwBlack";
 }
 
 /****************************************
