@@ -99,8 +99,18 @@ h5 {
   font-size: 19px;
 }
 
+a {
+  color: var(--primario-1);
+  text-decoration: none;
+  transition: color 400ms ease-in-out;
+}
+
+a:hover {
+  color: var(--primario-3);
+}
+
 header {
-  background-color: #f5d0c5;
+  background-color: #ffffff;
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
