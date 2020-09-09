@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 400;
 }
-}
+
 @font-face {
   font-family: "GBook";
   src: url("./assets/fonts/GBook.woff2") format("woff2");
@@ -32,26 +32,29 @@
   /* Colores */
   --primario-1: #141414;
   --primario-2: #333333;
-  --primario-3: #BFC0C0;
-  --primario-4:#F0F0EF;
-  --secundario-1: #3C0000;
-  --secundario-2:#774936;
-  --secundario-3:#D69F7E;
-  --secundario-4:#F5D0C5;
-  --brand-uno-1:#370617;
-  --brand-uno-2:#6A040F;
-  --brand-uno-3:#9D0208;
-  --brand-uno-4:#D00000;
-  --brand-dos-1:#1D3557;
-  --brand-dos-2:#457B9D;
-  --brand-dos-3:#77BBC8;
-  --brand-dos-4:#BCE9EB;
-  --brand-FOSFO-1:#00ff19;
+  --primario-3: #bfc0c0;
+  --primario-4: #f0f0ef;
+  --secundario-1: #3c0000;
+  --secundario-2: #774936;
+  --secundario-3: #d69f7e;
+  --secundario-4: #f5d0c5;
+  --brand-uno-1: #370617;
+  --brand-uno-2: #6a040f;
+  --brand-uno-3: #9d0208;
+  --brand-uno-4: #d00000;
+  --brand-dos-1: #1d3557;
+  --brand-dos-2: #457b9d;
+  --brand-dos-3: #77bbc8;
+  --brand-dos-4: #bce9eb;
+  --brand-FOSFO-1: #00ff19;
 
+  /* Intención de los colores */
+  --heading-descripcion-color: var(--primario-1);
+  --textosColor: var(--primario-1);
+  --headingsColor: var(--primario-3);
+  --backgroundColor: var(--primario-4);
+  --backgroundColorHeader: var(--primario-3);
 
-
-
-  
   /* Tipografía */
   --font-family-body: "GBook";
   --font-family-headings: "BwBlack";
@@ -96,29 +99,34 @@ h5 {
   font-size: 19px;
 }
 
-/****************************************
-*    Temp
-*****************************************/
-/* TODO: Ejercicio aplicar estilos de figma a cajas */
+header {
+  background-color: #f5d0c5;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
 
 /****************************************
 *    Componentes
 *****************************************/
+.menu {
+  display: flex;
+}
+.menu li {
+  padding-right: 20px;
+}
 
-header {
-  background-color: #00ff19;
-  display:inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  width:100%;
-  height:100px;
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 90vw;
+  margin: 0 auto;
 }
-.menu{
-  display:flex;
-}
-.menu li{ 
-  outline: rgba(255, 0, 0, 0.75) dotted 2px;
-  padding-right: 40px;
+.proyectos img {
+  margin: 20px;
 }
 /****************************************
 *    Helpers
