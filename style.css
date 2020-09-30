@@ -138,9 +138,38 @@ header {
 .proyectos img {
   margin: 20px;
 }
+
+/****************************************
+*    Sobre mi
+*****************************************/
+#contacto {
+  height: 400px;
+  background: #f5f5f5;
+  border: 1px solid #000000;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+
 /****************************************
 *    Helpers
 *****************************************/
 [dots] {
   outline: rgba(255, 0, 0, 0.75) dotted 2px;
+}
+
+/****************************************
+*   Test
+*****************************************/
+.BwMedium {
+  font-family: "BwMedium";
+}
+.BBwBlack {
+  font-family: "BwBlack";
+}
+.BwRegular {
+  font-family: "BwRegular";
+}
+.GBook {
+  font-family: "GBook";
 }
