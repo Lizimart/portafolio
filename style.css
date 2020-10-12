@@ -139,6 +139,34 @@ header {
   margin: 20px;
 }
 
+/* 
+.container > div {
+  position: relative;
+}
+
+.container > div > ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  margin: auto;
+}
+*/
+
+.proyecto {
+  position: relative;
+  border: 1px solid black;
+}
+.proyecto__titulo {
+  position: absolute;
+}
+.proyecto__imagen {
+}
+.proyecto__categoria {
+  position: absolute;
+}
+
 /****************************************
 *    Sobre mi
 *****************************************/
@@ -173,9 +201,10 @@ header {
 .GBook {
   font-family: "GBook";
 }
-
+/*
 @media screen and (min-width: 600px) {
   .proyectos {
     background: blue;
   }
 }
+*/
