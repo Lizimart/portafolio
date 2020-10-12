@@ -173,3 +173,9 @@ header {
 .GBook {
   font-family: "GBook";
 }
+
+@media screen and (min-width: 600px) {
+  .proyectos {
+    background: blue;
+  }
+}
