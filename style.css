@@ -153,18 +153,39 @@ header {
   margin: auto;
 }
 */
+/* Main */
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 2rem;
+}
 
 .proyecto {
   position: relative;
-  border: 1px solid black;
+  opacity: 1;
 }
-.proyecto__titulo {
+
+.proyecto:hover {
+  opacity: 0.8;
+}
+
+.proyecto__imagen:hover + div,
+.proyecto__info:hover {
+  visibility: visible;
+}
+
+.proyecto__info {
   position: absolute;
-}
-.proyecto__imagen {
-}
-.proyecto__categoria {
-  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
 }
 
 /****************************************
