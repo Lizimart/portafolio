@@ -1,3 +1,7 @@
 Comentarios video: Desde Figma a código
 -¿El acomodo que debemos de tener en figma del diseño fluido debe de estar junto al primer diseño del tamano para web del sitio? 
 - y los componentes de figma, por ejemplo mis imagenes deben de estar en diferentes tamaños ya que serán utilizadas para el diseño fluido y el web, no?
+
+21/10/2020
+-solucionar el hober sobre las imagenes y el texto de descrpción y título 
+-enlazar botones de contacto y sobre mi al contenido

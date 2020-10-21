@@ -58,6 +58,10 @@
   /* Tipografía */
   --font-family-body: "GBook";
   --font-family-headings: "BwBlack";
+  /* Utils */
+  --derecha: 0 0 0 auto;
+  --centro: 0 auto;
+  --izquierda: 0 auto 0 0;
 }
 
 /****************************************
