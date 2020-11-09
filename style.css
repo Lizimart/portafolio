@@ -243,3 +243,29 @@ header {
   }
 }
 */
+
+/****************************************
+*   Proyecto individual
+*****************************************/
+.info {
+  background-color: #c02c2c;
+  /* Display grid = display: grid; */
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+  background-color: #503d3d;
+}
+.datos {
+  background-color: #0dfa04;
+}
+.descrpción {
+  background-color: #4158df;
+}
+
+.imagenes {
+  display: flex;
+  gap: 20px;
+}
