@@ -103,6 +103,10 @@ h5 {
   font-size: 19px;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 a {
   color: var(--primario-1);
   text-decoration: none;
@@ -125,6 +129,10 @@ header {
 /****************************************
 *    Componentes
 *****************************************/
+.home {
+  position: relative;
+}
+
 .menu {
   display: flex;
 }
@@ -141,6 +149,12 @@ header {
 }
 .proyectos img {
   margin: 20px;
+}
+
+.top {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /****************************************
@@ -248,24 +262,31 @@ header {
 *   Proyecto individual
 *****************************************/
 .info {
-  background-color: #c02c2c;
   /* Display grid = display: grid; */
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 2fr;
 }
 
 .titulo {
-  background-color: #503d3d;
+  padding: 30px;
 }
 .datos {
-  background-color: #0dfa04;
+  padding: 30px 20px;
 }
-.descrpción {
-  background-color: #4158df;
+
+/* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls */
+.datos > * + * {
+  margin-top: 1rem;
+}
+
+.descripcion {
 }
 
 .imagenes {
+  grid-column: 1 / 3;
+  /* justify-self: center; */
   display: flex;
   gap: 20px;
 }
