@@ -119,10 +119,11 @@ a:hover {
 
 header {
   background-color: #ffffff;
-  display: inline-flex;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80vw;
+  margin: auto;
   height: 100px;
 }
 
@@ -263,6 +264,8 @@ header {
 *****************************************/
 .info {
   /* Display grid = display: grid; */
+  margin: auto;
+  width: 80vw;
   display: grid;
   grid-row-gap: 20px;
   grid-template-rows: auto auto;
@@ -270,7 +273,7 @@ header {
 }
 
 .titulo {
-  padding: 30px;
+  padding: 30px 0;
 }
 .datos {
   padding: 30px 20px;
@@ -282,6 +285,8 @@ header {
 }
 
 .descripcion {
+  background: lightblue;
+  font-weight: bold;
 }
 
 .imagenes {
@@ -289,4 +294,8 @@ header {
   /* justify-self: center; */
   display: flex;
   gap: 20px;
+}
+
+.imagenes img:last-of-type {
+  margin: 0 0 0 auto;
 }
