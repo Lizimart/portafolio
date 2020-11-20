@@ -225,7 +225,7 @@ header {
 }
 
 #contacto-info a {
-  font-size: 48px;
+  font-size: 50px;
   color: #000000;
 }
 
@@ -241,7 +241,7 @@ header {
 }
 
 .formato a {
-  font-size: 48px;
+  font-size: 50px;
   color: #000000;
 }
 
@@ -301,7 +301,7 @@ header {
 }
 
 .descripcion {
-  background: lightblue;
+  background: rgb(255, 255, 255);
   font-weight: bold;
 }
 

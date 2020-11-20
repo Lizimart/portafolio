@@ -7,3 +7,9 @@ Comentarios video: Desde Figma a código
 -enlazar botones de contacto y sobre mi al contenido
 
 Boton Java
+
+20/11/2020
+
+Enlazar mis proyectos al home (para que te lleven a su respectiva página)
+crecer el puntaje tipografico en "sobremi" (no pude jiji)
+
