@@ -1,14 +1,16 @@
 /* Tipografía */
 @font-face {
   font-family: "BwMedium";
-  src: url("./assets/fonts/BwMedium.woff2") format("woff2");
+  src: url("https://res.cloudinary.com/dyyygdjid/raw/upload/v1606934686/BwMedium_zshqm1.woff2")
+    format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "GBook";
-  src: url("./assets/fonts/GBook.woff2") format("woff2");
+  src: url("https://res.cloudinary.com/dyyygdjid/raw/upload/v1606934686/GBook_dyta5r.woff2")
+    format("woff2");
   font-style: normal;
   font-weight: 400;
 }
@@ -43,7 +45,7 @@
   --backgroundColorHeader: var(--primario-3);
   /* Tipografía */
   --font-family-body: "GBook";
-  --font-family-headings: "BwBlack";
+  --font-family-headings: "BwMedium";
   /* Utils */
   --left: 0 auto 0 0;
   --right: 0 0 0 auto;
@@ -195,6 +197,16 @@ nav {
   .proyecto {
     width: max-content;
   }
+}
+
+.dos-proyectos {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+.dos-proyectos article:nth-child(2) {
+  margin: auto 0 0 0;
 }
 
 /* Info box - Sobre mi & Contacto */
