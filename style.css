@@ -258,7 +258,7 @@ nav {
 }
 
 .titulo::after {
-  content: url(./assets/iconos/flecha2.png);
+  content: url(https://res.cloudinary.com/dyyygdjid/image/upload/v1608311835/flecha2.png.png);
 }
 .datos {
   padding: 30px 20px;
@@ -306,7 +306,7 @@ nav {
   }
 
   .titulo::after {
-    content: url(./assets/iconos/flecha.png);
+    content: url(https://res.cloudinary.com/dyyygdjid/image/upload/v1608311937/flecha1.png.png);
   }
   .datos {
     padding: 30px 20px;
@@ -343,4 +343,24 @@ nav {
 .texto-contacto.open,
 .texto-sobremi.open {
   display: block;
+}
+
+/* Sobre mi & contacto */
+.contacto,
+#contacto {
+  min-height: 80vh;
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* clamp(minimum, preferred, maximum) */
+#contacto p,
+#contacto a,
+#contacto-info a {
+  font-size: clamp(24px, 30px, 40px);
 }
